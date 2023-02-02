@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Computer Hardware Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="stylles.css">
+        <style>
+            body {
+                overflow: scroll;
+                font-family: "Roboto", sans-serif;
+                font-size: 16pt;
+            }
+            h1 {
+                font-family: "Roboto", sans-serif;
+                font-size: 30pt;
+            }
+            p {
+                font-family: "Roboto", sans-serif;
+                font-size: 16pt;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="banner">
+            <h1>Computer Hardware Project</h1>
+        </div>
+
+        <p>Click on an image to learn more <br>about each component of a computer.</p>
+
+        <!-- Trigger the Modal -->
+        
+        <img class="myImg" id="myImg2" src="cpu.jpg" alt="The CPU (Central Processing Unit) is like the &quot;brains&quot; of the computer. It processes things like math equations and connects directly to the motherboard through a socket." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg3" src="gpu.jpg" alt="The GPU (Graphics Processing Unit) and Sound Cards connect to the motherboard through ports called PCIe (Peripheral Component Interconnect Express) ports, and they process data that the motherboard inputs. They output data that the user can interpret, like videos or sound." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg4" src="motherboard.jpg" alt="The Motherboard is like the nervous system of the computer. It connects every piece of the computer together." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg5" src="keyboard.jpg" alt="The Keyboard connects to the motherboard through one of its I/O ports, usually a USB port. It sends data that the user inputs through the keys." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg6" src="mouse.jpg" alt="The Mouse is simjilar to the keyboard, but instead of sending letters and numbers, it sends the locaiton of the cursor and whether the buttons have been clicked." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg7" src="monitor.jpg" alt="The Monitor connects directly to the graphics card, and displays what the graphics card outputs in the form of video." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg8" src="ram.jpg" alt="The RAM (Random Access Memory) plugs directly into the motherboard through a DIMM slot. It is a much faster form of storage for data that the computer is currently using, so that it can access it very quickly." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg9" src="storage.jpg" alt="The Hard Drive is a set of metal discs that spin very quickly inside a metal case. An arm writes/reads magnetic patches on the disks to store data for longer periods than RAM." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg0" src="modem.jpg" alt="The Modem is what connects the computer to the Internet. It usually connects with WiFi, or sometimes a type of cable called Ethernet." style="width:200px;display:inline;">
+        <img class="myImg" id="myImg11" src="drives.jpg" alt="The Drive connects the motherboard to CDs or DVDs you put into the tray." style="width:200px;display:inline;">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        <!-- Load external JavaScript -->
+        <script src="scriptds.js"></script>
+        
+    </body>
+
+</html>
